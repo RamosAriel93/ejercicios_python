@@ -19,8 +19,20 @@
 # else:
 #     print('El dato no existe')
 
-valor1 = int(input('Ingrese el primer valor: '))
-valor2 = int(input('Ingrese el segundo valor: '))
-suma = valor1+valor2
-print('El resultado de la suma es :', suma)
+valor1 = input('Ingrese el primer valor: ')
+valor2 = input('Ingrese el segundo valor: ')
+try:
+    valor1 = int(valor1)
+except:
+    valor1 = 'no funciona'
+try:
+    valor2 = int(valor2)
+except ValueError:
+    valor2 = 'no funciona'
+if valor1 == 'no funciona' or valor2 == 'no funciona':
+    print('valores invalidos')
+else:
+    suma = valor1+valor2
+    print('el resultado es :', suma)
+
 
