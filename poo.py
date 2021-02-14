@@ -6,7 +6,7 @@ class Vehiculo:
         self.color = color
 
     def arranca(self):
-        print('El vehiculo ', self.marca, self.modelo, self.cilindrada, self.color, 'se puso en marcha.')
+        print('El vehiculo ', self.marca, self.modelo, self.cilindrada, self.color, 'se puso en marcha correctamente.')
 
 
 class Moto(Vehiculo):
@@ -14,7 +14,7 @@ class Moto(Vehiculo):
         super().__init__(marca, modelo, cilindrada, color)
 
     def arranque_moto(self):
-        print('la moto ', self.marca, self.modelo, self.cilindrada, self.color, 'se puso en marcha.')
+        print('la moto ', self.marca, self.modelo, self.cilindrada, self.color, 'se puso en marcha correctamente.')
 
 
 mi_moto = Moto('suzuki', 'Gn', 150, 'negro')

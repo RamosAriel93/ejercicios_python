@@ -1,4 +1,4 @@
-frutas = ['manzana' , 'naranja' , 'banana' , 'mandarina']
+frutas = ['manzana', 'naranja', 'banana', 'mandarina']
 for fruta in frutas :
     print(fruta)
 oracion = 'lola y luna'
@@ -9,7 +9,7 @@ i = 0
 
 while i < 5:
     print(i)
-    i+=1
+    i += 1
 
 for i in range(5):
-    print('Macri gato')
+    print('Lola y Luna')
